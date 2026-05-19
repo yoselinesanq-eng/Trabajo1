@@ -24,11 +24,9 @@ Instrucciones de Ejecución:
 
 🔗 Links Relevantes
 Repositorio del proyecto:  
-https://github.com/yoselinesanq-eng/TrabajoFinal
+https://github.com/yoselinesanq-eng/Trabajo1
 
 Aplicación desplegada en Streamlit Cloud:  
 https://trabajo-final-adjuwblfd3mjvjuejwh9hu1.streamlit.app/
 
-Documentación oficial de Streamlit:  
-https://docs.streamlit.io/
 
