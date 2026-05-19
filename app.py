@@ -432,16 +432,17 @@ elif modulo == "Módulo 2":
         st.header("📌 10. Hallazgos clave del EDA")
 
         resumen = st.text_area(
-            "Escribe tus conclusiones:",
+            "El análisis reveló patrones importantes en la distribución de los datos, 
+            presencia de valores atípicos, correlaciones relevantes entre variables y 
+            tendencias claras que permiten comprender mejor el comportamiento general del conjunto. 
+            Además, se identificaron aspectos de calidad de datos que deben considerarse en futuros análisis.",
             value=(
-                "- Variables con mayor dispersión.\n"
-                "- Relaciones relevantes entre variables.\n"
-                "- Posibles outliers.\n"
-                "- Patrones interesantes en variables categóricas.\n"
+                "- MonthlyCharges y TotalCharges son las variables con mayor dispersión.\n"
+                "- Se observaron relaciones importantes entre Tenure–TotalCharges y MonthlyCharges–Churn.\n"
+                "- Existen outliers en cargos mensuales y totales, asociados a clientes con consumos altos.\n"
+                "- Las variables categóricas muestran patrones claros: mayor churn en contratos mensuales, pagos con Electronic Check y usuarios de fibra óptica.\n"
             ),
             height=200
         )
 
-        st.write("### 📝 Resumen final")
-        st.write(resumen)
 
