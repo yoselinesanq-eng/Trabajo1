@@ -1,5 +1,7 @@
 # Trabajo Final
-Caso N°1 - Descripción del Proyecto:
+Caso N°1
+
+Descripción del Proyecto:
 
 Este proyecto es una aplicación web interactiva desarrollada con Python y Streamlit, como parte del curso Fundamentos de Programación en Python – Python DMC (2026).
 La aplicación integra conceptos fundamentales de programación, análisis de datos y visualización, permitiendo explorar información, realizar cálculos y mostrar resultados de forma clara y profesional.
